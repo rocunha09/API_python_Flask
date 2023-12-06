@@ -1,7 +1,57 @@
 ## projeto python com Flask
 Praticando python com flask criando API.
 
-### dependências utilizadas:
+## Configurando o Ambiente Virtual
+
+Recomendado o uso de um ambiente virtual para isolar as dependências do projeto. Você pode criar um ambiente virtual da seguinte maneira:
+
+### No Linux/macOS
+```bash
+python3 -m venv venv
+```
+
+### No Windows
+```bash
+python -m venv venv
+```
+
+## Ativando ambiente virtual
+
+### No Linux/macOS
+```bash
+source venv/bin/activate
+```
+
+### No Windows
+```bash
+venv\Scripts\activate
+```
+
+## Quando terminar
+
+### No Linux/macOS
+```bash
+deactivate
+```
+
+### No Windows
+```bash
+venv\Scripts\deactivate
+```
+
+
+## Instalando as dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+## Executando o Projeto
+```bash
+python main.py
+```
+
+## dependências utilizadas:
 
 **Flask:**
 
