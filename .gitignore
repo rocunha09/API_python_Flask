@@ -1,0 +1,48 @@
+# Arquivos e diretórios específicos do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de configuração do Python
+*.pyc
+*.pyo
+*.pyd
+
+# Ambiente virtual (por exemplo, criado com virtualenv ou venv)
+venv/
+
+# Dependências instaladas
+lib/
+lib64/
+bin/
+include/
+pyvenv.cfg
+pip-selfcheck.json
+
+# Arquivos de ambiente
+.env
+
+# Arquivos de log
+*.log
+
+# Arquivos de banco de dados SQLite
+*.db
+
+# Arquivos de cache
+*.sqlite3
+
+# Arquivos gerados pelo Flask
+instance/
+webassets-manifest*
+
+# Arquivos e diretórios específicos do Flask
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+instance/
+webassets-manifest/
+
+# Arquivos de configuração local (modifique conforme necessário)
+config.py
